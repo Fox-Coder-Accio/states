@@ -5,7 +5,8 @@ import Counter from "./Components/Counter";
 import Objects from "./Components/Objects";
 import BasicForm from "./Components/BasicForm";
 import BasicForm2 from "./Components/BasicForm2";
-import LazyInitilization from "./LazyInitilization";
+import LazyInitilization from "./Components/LazyInitilization";
+import Async from "./Components/Async";
 
 import "./style.css";
 
@@ -18,7 +19,8 @@ const App = () => {
             {/* <Objects /> */}
             {/* <BasicForm /> */}
             {/* <BasicForm2 /> */}
-            <LazyInitilization />
+            {/* <LazyInitilization /> */}
+            <Async />
         </div>
     )
 }
